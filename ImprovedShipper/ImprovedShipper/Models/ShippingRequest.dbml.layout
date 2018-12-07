@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ShippingRequest">
+  <DataContextMoniker Name="/ShippingRequestDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5b56e92c-8308-4986-9c52-72f5808dc056" absoluteBounds="7.125, 2.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/ShippingRequestDataContext/ISO3166_Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3307728-334a-45a7-bcbb-318c81967180" absoluteBounds="7.1400000000000006, 2.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2ca0a8e5-0572-424f-a927-f5432d65377f" absoluteBounds="7.125, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/ShippingRequestDataContext/Political_Subunit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88dd30cf-b32a-4f00-b19f-a5511ebb2f4d" absoluteBounds="7.1400000000000006, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fcf74b27-006f-48e0-9a47-3a30b05f3eb0" absoluteBounds="5, 0.5, 2, 4.2708154296875">
+      <DataClassMoniker Name="/ShippingRequestDataContext/Processed_Request" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b106758-6245-45ac-b7e2-b9318b524675" absoluteBounds="5.015, 0.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f3fa3301-252a-4c35-94b7-4d640cb229d1" absoluteBounds="2.875, 0.5, 2, 5.4246240234375">
+      <DataClassMoniker Name="/ShippingRequestDataContext/Shipping_Request" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e48d6a5c-38b7-4ae4-908c-07cfca5a0bdd" absoluteBounds="2.89, 0.96, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50c194a3-b477-497d-a1c2-0a122cb5e946" absoluteBounds="7.125, 3.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ShippingRequestDataContext/Shipping_Item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6617b9af-20cd-4661-909e-0d41a4ff19d1" absoluteBounds="7.1400000000000006, 3.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.875 : 5.24440755208333); (7.125 : 5.24440755208333)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ShippingRequestDataContext/Shipping_Request/Shipping_Request_Shipping_Item" />
+      <nodes>
+        <classShapeMoniker Id="f3fa3301-252a-4c35-94b7-4d640cb229d1" />
+        <classShapeMoniker Id="50c194a3-b477-497d-a1c2-0a122cb5e946" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

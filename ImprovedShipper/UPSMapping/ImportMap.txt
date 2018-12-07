@@ -1,0 +1,114 @@
+UPS WorldShip - Import/Export Data Report
+
+November 30, 2018 15:35:10
+
+Map Name:	PhishyImport
+
+Data Source Information:
+
+	DSN Name:
+		phish-import
+	DSN Description:
+		
+	ODBC Driver Name:
+		SQL Server
+	ODBC Driver:
+		C:\windows\SysWOW64\SQLSRV32.DLL
+	Database Name:
+		OAI_ShippingRequest
+	Database Path:
+		
+	Database Server:
+		aag-omni
+
+
+Map Information:
+
+	Map Type:
+		Shipment
+	Map Version:
+		1023
+	Primary Table:
+		Shipping_Request
+	Primary Key:
+		ID
+	Package Name:
+		
+	Prompt for Table Name:
+		No
+	XML Directory Location:
+		
+
+
+Key Relations:
+
+	Related From Field (Table::Field)
+		Related To Field (Table::Field)
+
+	Shipping_Request::ID
+		Shipping_Items::ID
+
+
+Field Mappings:
+
+	ODBC Data Source Field (Table::Field)
+		WorldShip Field (Container::Field)
+
+	Shipping_Request::To_State
+		Ship To::State/Province/County
+	Shipping_Request::To_Address_Two
+		Ship To::Address 2
+	Shipping_Request::To_Address_One
+		Ship To::Address 1
+	Shipping_Request::Signature_Required
+		Package::Delivery Confirmation Signature Required
+	Shipping_Request::Bill_To_Third_Party
+		Third Party (Receiver)::UPS Account Number
+	Shipping_Request::From_Phone
+		Ship From::Telephone
+	Shipping_Request::Bill_To_Third_Party
+		Ship To::Receiver UPS Account Number
+	Shipping_Request::From_Name
+		Ship From::Attention
+	Shipping_Request::From_Email_Address
+		Ship To::Email Address
+	Shipping_Request::To_Country
+		Ship To::Country/Territory
+	Shipping_Request::To_Name
+		Ship To::Attention
+	Shipping_Items::Ship_Item_ID
+		Packing List::Good ID
+	Shipping_Request::Signature_Required
+		Ship To::Residential Indicator
+	Shipping_Request::Signature_Required
+		Package::Delivery Confirmation Option
+	Shipping_Request::To_Postal_Code
+		Ship To::Postal Code
+	Shipping_Items::Description
+		Package::Merchandise Description for Package
+	Shipping_Request::To_City
+		Ship To::City or Town
+	Shipping_Request::To_Company
+		Ship To::Company or Name
+	Shipping_Request::From_Email_Address
+		Ship From::Email Address
+	Shipping_Request::To_Phone
+		Ship To::Telephone
+	Shipping_Items::Ship_Item_ID
+		Goods::Good ID
+	Shipping_Items::Quantity
+		Packing List::Units In Package
+	Shipping_Items::Description
+		Goods::Description Of Good
+	Shipping_Request::Logged_In_User
+		Package::Reference 5
+	Shipping_Request::ShipInitatingDate
+		Package::Reference 4
+	Shipping_Request::Ship_Type_Business_Private
+		Package::Reference 3
+	Shipping_Request::ID
+		Package::Reference 1
+	Shipping_Request::Employee_ID
+		Package::Reference 2
+
+

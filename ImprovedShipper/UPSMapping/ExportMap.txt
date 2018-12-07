@@ -1,0 +1,81 @@
+UPS WorldShip - Import/Export Data Report
+
+November 30, 2018 15:35:46
+
+Map Name:	PhishyExport
+
+Data Source Information:
+
+	DSN Name:
+		phish-import
+	DSN Description:
+		
+	ODBC Driver Name:
+		SQL Server
+	ODBC Driver:
+		C:\windows\SysWOW64\SQLSRV32.DLL
+	Database Name:
+		OAI_ShippingRequest
+	Database Path:
+		
+	Database Server:
+		aag-omni
+
+
+Map Information:
+
+	Map Type:
+		Shipment
+	Map Version:
+		1023
+	Primary Table:
+		
+	Primary Key:
+		
+	Package Name:
+		
+	Prompt for Table Name:
+		No
+	XML Directory Location:
+		
+
+
+Field Mappings:
+
+	WorldShip Field (Container::Field)
+		ODBC Data Source Field (Table::Field)
+
+	Ship To::Address 1
+		Processed_Requests::To_AddOne
+	Ship To::Attention
+		Processed_Requests::To_Name
+	Shipment Information::Total Shipper Published Charge
+		Processed_Requests::Total_Cost
+	Package::Reference 3
+		Processed_Requests::Ship_Type
+	Ship To::Address 2
+		Processed_Requests::To_AddTwo
+	Ship To::Company or Name
+		Processed_Requests::To_Company
+	Package::Reference 5
+		Processed_Requests::From_SamName
+	Ship To::Country/Territory
+		Processed_Requests::To_Country
+	Ship To::State/Province/County
+		Processed_Requests::To_State
+	Package::Tracking Number
+		Processed_Requests::Tracking_Num
+	Ship To::City or Town
+		Processed_Requests::To_City
+	Package::Reference 1
+		Processed_Requests::Original_ShipID
+	Package::Reference 4
+		Processed_Requests::Ship_InitDate
+	Ship To::Postal Code
+		Processed_Requests::To_PostalCode
+	Package::Reference 2
+		Processed_Requests::From_EmpID
+	Ship To::Telephone
+		Processed_Requests::To_Telephone
+
+
